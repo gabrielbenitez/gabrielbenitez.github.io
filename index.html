@@ -157,18 +157,45 @@
 
     <!-- Formulário -->
     <div class="row justify-content-center mb-5 container-fluid">
-    <div class="col-sm-6 col-md-6 col-lg-6">
-        <form action="https://formspree.io/gabrielbmartins1999@gmail.com" method="POST" target="_blank">
-            <input type="text" name="name">
-            <input type="email" name="_replyto">
-            <input type="submit" value="Send">
-          </form>
-    </div>
-    </div>
-
-    </div>
-    </div>
-    </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <form action="https://formspree.io/gabrielbmartins1999@gmail.com" method="POST">
+                <div class="form-row">
+                <div class="form-group col-sm-12">
+                    <label for="inputNome">Seu Nome</label>
+                    <input name="Nome" type="text" class="form-control" id="inputNome" placeholder="Nome" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                        <label for="inputSobrenome">Seu Sobrenome</label>
+                        <input name="Sobrenome" type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                        <label for="inputTelefone">Seu Telefone</label>
+                        <input name="Telefone" type="tel" class="form-control" id="inputTelefone" placeholder="Telefone" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                        <label for="inputEmail">Seu E-Mail</label>
+                        <input name="E-Mail" type="email" class="form-control" id="inputEmail" placeholder="Email" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                        <label for="inputAssunto">Seu Assunto</label>
+                        <input name="Assunto" type="text" class="form-control" id="inputAssunto" placeholder="Assunto">
+                </div>
+                <div class="form-group col-sm-12">
+                        <label for="inputMensagem">Sua Mensagem</label>
+                        <textarea name="Mensagem" id="inputMensagem" cols="30" rows="10" placeholder="Mensagem" required="required" class="form-control"></textarea>
+                </div>
+                <div>
+                    <button type="submit" value="Send" class="form-control btn btn-outline-secondary btn-lg" id="button">Chamar o Pombo Correio!</button>
+                </div>
+                <i class="fab fa-earlybirds"></i>
+                </div>
+            </form>
+        </div>
+        </div>
+    
+        </div>
+        </div>
+        </div>
 
     <!-- Footer -->
     <footer>
