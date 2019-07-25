@@ -22,17 +22,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Currículo</a>
+                <li class="nav-item">
+                    <a id="nav-color" class="nav-link" href="#">Currículo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfólio</a>
+                    <a id="nav-color" class="nav-link" href="#portfolio">Portfólio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
+                    <a id="nav-color" class="nav-link" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
+                    <a id="nav-color" class="nav-link" href="#contato">Contato</a>
                 </li>
             </ul>
         </div>
@@ -44,18 +44,25 @@
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1"></li>
-       <!-- <li data-target="#slides" data-slide-to="2"></li> --> 
+        <li data-target="#slides" data-slide-to="2"></li>
     </ul>
     <div class="carousel-inner">
+
+        
         <div class="carousel-item active">
+            <img src="img/background3.jpg">
+            <div class="carousel-caption">
+                <h1 class="display-2">Gabriel B. Martins</h1>
+                <h3>Desenvolvedor - Fatecano - Autodidata</h3>
+            </div>
+        </div> 
+
+        <div class="carousel-item">
             <img src="img/background.jpg">
         </div>
         <div class="carousel-item">
             <img src="img/background2.jpg">
         </div>
-       <!-- <div class="carousel-item">
-                <img src="img/background3.jpg">
-        </div> -->
     </div>
     </div>
 
@@ -121,31 +128,74 @@
         </div>
     </figure> 
 
+    <!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Clique para se Divertir!</button>
+<div id="emoji" class="collapse">
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/panda.gif">
+	</div> 
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/poo.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/unicorn.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/chicken.gif">
+	</div>
+</div>	
+</div>	
+</div>
 
-
-    <!-- Sessão de Filosofia -->
-    <div class="container-fluid padding" id="sobre">
-    <div class="row text-center padding">
-        <div class="col-lg-12">
-            <h1>Filosofia</h1>
+   <!--- Cards -->
+<div class="container-fluid padding" id="sobre">
+    <div class="row padding">
+        <div class="col-lg-12 text-center">
+            <h1 class="display-4">Sobre</h1>
         </div>
-        <br>
-        <div class="col-lg-12">
-            <p>Aqui precisa vim a parte sobre mim que eu acabei esquecendo.</p>
-            <!-- <br>
-            <a href="#" class="btn btn-primary">Mais a Respeito</a> -->
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/tkd.png">
+                <div class="card-body">
+                    <h4 class="card-title">Taekwondo</h4>
+                    <p class="card-text">Praticante desde 2012, Instrutor e faixa Vermelha Ponta Preta. Amante desta maravilhosa arte marcial! S2</p>
+                   
+                </div>
+            </div>
         </div>
-        <!-- <div class="col-lg-6">
-            <img src="img/filosofo.jpg">
-        </div> -->
-    </div>
+    
+        <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team2.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Músicas</h4>
+                        <p class="card-text">Ouço um pouco de TUDO! Mas o que me prende mais é Rock, por exemplo: Foo Fighters e Guns n Roses. </p>
+                       <!-- <a href="#" class="btn btn-outline-secondary">See Profile</a> -->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/livro.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Livros</h4>
+                            <p class="card-text">Livros de fantasia e aventura são o meu forte! Saga de livros favorita: As Crônicas de Gelo e Fogo.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+    
+    </div>	
     </div>
 
     <!-- Contato -->
     <div class="container-fluid padding contact" id="contato">
     <div class="row text-center padding">
         <div class="col-12">
-            <h1>Contato</h1>
+            <h1 class="display-4">Contato</h1>
         </div>
 
         <div class="col-12 social padding">
